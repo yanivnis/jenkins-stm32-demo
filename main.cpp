@@ -19,7 +19,7 @@ void button1_onpressed_cb(void)
     if (button1_enabled) { // Disabled while the button is bouncing
         button1_enabled = false;
         button1_pressed = true; // To be read by the main loop
-        button1_timeout.attach(callback(button1_enabled_cb), 0.003); // Debounce time 300 ms
+        button1_timeout.attach(callback(button1_enabled_cb), 0.3); // Debounce time 300 ms
     }
 }
 
@@ -29,7 +29,7 @@ int main()
     printf("mBed boot done\n");
 
     //button1.mode(PullUp); // Activate pull-up
-    button1.fall(callback(button1_onpressed_cb)); // Attach ISR to handle button press event
+    //button1.fall(callback(button1_onpressed_cb)); // Attach ISR to handle button press event
 
     int idx = 0; // Just for printf below
 
