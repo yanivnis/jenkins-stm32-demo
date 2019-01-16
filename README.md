@@ -1,4 +1,4 @@
-# STM32 Continuous Integration example  
+# STM32 Continuous Integration example   
 A sample repo to demonstrate how continuous integration works on STM32 projects. This sample is based on the [following tutorial](https://blog.jumper.io/stm32-continuous-integration/). Follow the instructions in the [link](https://blog.jumper.io/stm32-continuous-integration/) to set this up yourself.
 
 Click here to see the latest build result and artifact on CircleCI - [![CircleCI](https://circleci.com/gh/Jumperr-labs/STM32_Button_Debounce.svg?style=svg)](https://circleci.com/gh/Jumperr-labs/STM32_Button_Debounce)
